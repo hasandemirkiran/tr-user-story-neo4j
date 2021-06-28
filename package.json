@@ -2,10 +2,12 @@
   "name": "user-story-neo4j",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://127.0.0.1:5000/upload",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
